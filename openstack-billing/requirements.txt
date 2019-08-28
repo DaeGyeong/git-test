@@ -1,0 +1,9 @@
+flask-restplus
+Flask-Migrate
+Flask-Script
+flask_testing
+flask-sqlacodegen
+pymysql
+flask-keystone
+# flask-oslolog
+flask_oslolog

@@ -1,0 +1,8 @@
+# flask db migrate
+
+python manage.py db init
+python manage.py db migrate --message 'initial database migration'
+python manage.py db upgrade
+
+# table to model
+# flask-sqlacodegen "mysql+pymysql://root:ID@IP:PORT/DATABASE_NAME" --flask > models.py
