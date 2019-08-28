@@ -34,7 +34,18 @@ systemctl start prometheus
 mv /mon/prometheus/prometheus.yml /mon/prometheus/prometheus.yml.bak
 
 cat << EOF > /mon/prometheus/prometheus.yml
-설정값
+global:
+  scrape_interval:     60s # By default, scrape targets every 15 seconds.
+  external_labels:
+    monitor: 'codelab-monitor'
+
+scrape_configs:
+  - job_name: 'prometheus'
+
+    scrape_interval:    60s
+
+    static_configs:
+      - targets: ['localhost:9103', 'localhost:65534']
 EOF
 
 ```

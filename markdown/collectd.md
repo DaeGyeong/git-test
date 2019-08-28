@@ -1,5 +1,6 @@
 - Centos 7  collectd & plugin 설치
 ```sh
+yum install epel-release
 yum install collectd -y
 yum install collectd-virt -y
 yum install collectd-write_prometheus -y
