@@ -17,10 +17,10 @@
       POST /members/2       (o)
   ```
   <br/>
-  
+
 2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
 
-  | METHOD | 역활 |
+  | METHOD | Description |
   | :----: | ---- |
   | POST   | Resource 생성합니다. |
   | GET  	 | Resource 조회합니다. <br /> 조회하고 해당 리소스에 대한 자세한 정보를 가져온다. |
@@ -37,7 +37,7 @@
 
 4. HTTP Response code
 
-  | 상태코드 | 의미 |
+  | Code | Description |
   | :-----: | ---- |
   |   200   |	클라이언트의 요청을 정상적으로 수행함 |
   |   201   |	클라이언트가 어떠한 리소스 생성을 요청, 해당 리소스가 성공적으로 생성됨 |
