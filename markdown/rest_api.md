@@ -16,7 +16,10 @@
       GET /members/insert/2 (x)
       POST /members/2       (o)
   ```
+  
+  
 2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
+
   | METHOD | 역활 |
   | :----: | ---- |
   | POST   | Resource 생성합니다. |
@@ -24,13 +27,16 @@
   | PUT	   | Resource 수정합니다. |
   | DELETE | Resource 삭제합니다. |
 
+
 3. URI 설계시 주의 점
   1) 슬래시(/)는 계층 관계를 나타내는 데 사용
   2) 하이픈(-)은 URI 가독성을 높이는데 사용
   3) 밑줄(\_)은 사용하지 않는다
   4) 파일 확장자는 URI에 포함시키지 않는다
 
+
 4. HTTP Response code
+
 | 상태코드 | 의미 |
 | :-----: | ---- |
 |   200   |	클라이언트의 요청을 정상적으로 수행함 |
