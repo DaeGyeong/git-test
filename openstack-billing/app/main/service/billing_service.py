@@ -1,4 +1,3 @@
-# from app.main.model.instances import Instance
 from app.main.model.flavor import Flavor
 from app.main.model.instances import Instance
 from app.main.model.base import Base
