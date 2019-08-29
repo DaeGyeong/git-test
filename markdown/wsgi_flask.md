@@ -14,8 +14,8 @@ cat << 'EOF' > /etc/httpd/conf/billing.conf
 Listen 8888
 <VirtualHost *:8888>
      ServerName local_ip
-     WSGIScriptAlias / /web/kisti-billing/httpd.wsgi
-     <Directory /web/kisti-billing>
+     WSGIScriptAlias / /web/openstack-billing/httpd.wsgi
+     <Directory /web/openstack-billing>
                 # set permissions as per apache2.conf file
             Options FollowSymLinks
             AllowOverride None
