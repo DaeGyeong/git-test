@@ -1,3 +1,10 @@
 Django==1.11.6
-django-environ==0.4.5
-pytz==2018.9
+django-cors-headers
+django-environ
+djangorestframework
+djangorestframework-jwt
+mysqlclient
+oauthlib
+PyJWT
+requests
+requests-oauthlib
